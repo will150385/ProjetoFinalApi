@@ -465,3 +465,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:s
 2022-10-22 20:19:50,616 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-10-22 20:19:50,616 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\willd\OneDrive\Área de Trabalho\Trabalho Final\ecommerce\ecommerce\src\test\resources
 2022-10-22 20:30:04,300 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-23 13:07:24,181 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
