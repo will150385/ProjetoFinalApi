@@ -1,0 +1,42 @@
+# Dados de conexão com o banco H2
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.username=sa
+#spring.datasource.password=
+# Configuração do cliente web do banco H2
+#spring.h2.console.enabled=true
+#spring.h2.console.path=/h2-console
+# Configuração para mostrar o SQL no console
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=true
+
+server.port						= 8080
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto			= none
+spring.jpa.hibernate.show-sql			= true
+spring.datasource.url					= jdbc:postgresql://localhost:5432/biblioteca
+spring.datasource.username				= postgres
+spring.datasource.password				= 123456
+
+logging.level.org.hibernate.SQL								= DEBUG
+#logging.level.org.hibernate.SQL								= INFO
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder	= INFO
+logging.level.org.hibernate.type							= INFO
+#Configuracoes do JWT
+jwt_secret=rertiopjgffdpkfgdkogpokgf
+jwt-subject=Dados do Usuario
+jwt-company-project-name=Autenticacao de Usuario
+
+#Propriedades de e-mail
+spring.mail.host=smtp.mailtrap.io
+spring.mail.port=587
+spring.mail.username=5f27179b7daef5
+spring.mail.password=25278c2ca5b37c
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+spring.mail.properties.mail.smtp.ssl.enable=false
+spring.mail.test-connection=true		
+mail.from=will150385@gmail.com
+#Propriedades da Api de imagem
+imgbb.host.url = https://api.imgbb.com/1/upload?key=
+imgbb.host.key =b0d38282704e7cb1d71bd17445e7eabc

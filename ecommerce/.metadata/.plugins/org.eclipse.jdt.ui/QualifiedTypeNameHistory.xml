@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="io.swagger.v3.oas.models.media.MediaType"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestPart"/>
+    <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.serratec.ecommerce.ecommerce.dto.imgbb.ImgBBDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIdentityInfo"/>
+    <fullyQualifiedTypeName name="com.serratec.ecommerce.ecommerce.model.Produto"/>
+</qualifiedTypeNameHistroy>
